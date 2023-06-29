@@ -23,13 +23,17 @@ const Footer = () => {
       <footer className="container-fluid text-center p-3" style={footerStyle}>
         <h3 className="pb-3 ">Follow us on </h3>
         <div className="social-icons">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faYoutube} size="xl" className="icon mx-2" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/mses.iitd/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faInstagram}
               size="xl"
