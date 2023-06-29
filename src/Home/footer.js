@@ -8,8 +8,6 @@ import {
 import "./footer.css";
 const Footer = () => {
   const copyRightStyle = {
-    padding: "10px",
-    margin: "10px 0 0",
     borderColor: "#D8F3DC",
   };
   const footerStyle = {
@@ -23,23 +21,27 @@ const Footer = () => {
   return (
     <>
       <footer className="container-fluid text-center p-3" style={footerStyle}>
-        <h3 className="pb-3">Follow us on </h3>
-        <div className="btn-group-lg">
-          <button type="button" class="btn pr-5">
+        <h3 className="pb-3 ">Follow us on </h3>
+        <div className="social-icons">
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faYoutube} size="xl" className="icon mx-2" />
+          </a>
+          <a
+            href="https://www.instagram.com/mses.iitd/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faInstagram}
-              beat
-              style={{ color: "grey" }}
+              size="xl"
+              className="icon mx-2"
             />
-          </button>
-          <button type="button" class="btn pr-5">
-            <FontAwesomeIcon icon={faYoutube} beat style={{ color: "grey" }} />
-          </button>
-          <button type="button" class="btn">
-            <FontAwesomeIcon icon={faTwitter} beat style={{ color: "grey" }} />
-          </button>
+          </a>
         </div>
-        <div className="contact pt-5">
+        <div className="contact pt-5 pb-3">
           <p>Contact Us</p>
           <a style={contactUsStyle} href="mailto:ms1200751@iitd.ac.in">
             ms1200751@iitd.ac.in
@@ -49,7 +51,7 @@ const Footer = () => {
             9334169466
           </a>
         </div>
-        <div style={copyRightStyle} className="border-top text-left pl-5">
+        <div style={copyRightStyle} className="border-top pt-3">
           <p>©Copyright DMSE, IIT Delhi</p>
         </div>
       </footer>
