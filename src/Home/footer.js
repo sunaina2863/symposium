@@ -48,7 +48,7 @@ const Footer = () => {
           </a>
           <br></br>
           <a style={contactUsStyle} href="tel:9334169466">
-            9334169466
+            6283262790
           </a>
         </div>
         <div style={copyRightStyle} className="border-top pt-3">
