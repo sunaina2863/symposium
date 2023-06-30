@@ -18,6 +18,7 @@ const Footer = () => {
   const contactUsStyle = {
     color: "#FEFAE0",
   };
+  
   return (
     <>
       <footer className="container-fluid text-center p-3" style={footerStyle}>
