@@ -47,7 +47,7 @@ const Footer = () => {
             ms1200751@iitd.ac.in
           </a>
           <br></br>
-          <a style={contactUsStyle} href="tel:9334169466">
+          <a style={contactUsStyle} href="tel:6283262790">
             6283262790
           </a>
         </div>
