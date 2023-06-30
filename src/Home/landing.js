@@ -3,7 +3,14 @@ import gif from './landing.gif';
 
 const Landing = () => {
     return(
-        <img src={gif} class="img-fluid" alt="image not available"/>
+        <img 
+            style={{
+                
+            }}
+            src={gif} 
+            class="img-fluid" 
+            alt="image not available"
+        />
     )
  };
 
