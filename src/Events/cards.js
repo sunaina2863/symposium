@@ -31,15 +31,15 @@ const Card = ({ keyVal, title, content }) => {
         totWidth = relElem[0].offsetLeft + relElem[0].offsetWidth - left;
       }
       curr.maxWidth = "none";
-      let id = setInterval(frame, 10);
+      let id = setInterval(() => frame(), 10);
       let totWidth100 = totWidth / 100;
       function frame() {
         if (width >= totWidth) {
-          let content = "";
+          let content = "<div class='rows'>";
           for (let i of dataAttr) {
-            content += `<img src='${i}'/>`;
+            content += `<div class='column' ><img src='${i}'/></div>`;
           }
-          c.innerHtml = content;
+          c.innerHTML = content + "</div>";
 
           clearInterval(id);
         } else {
@@ -114,7 +114,6 @@ const Card = ({ keyVal, title, content }) => {
     </div>
   );
   return keyVal % 2 === 0 ? rightAllign : leftAllign;
-  // return leftAllign;
 };
 
 export default Card;
