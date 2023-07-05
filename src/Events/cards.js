@@ -50,7 +50,11 @@ const Card = ({ keyVal, title, content }) => {
       curr.zIndex = 100;
     } else {
       curr.maxWidth = "540px";
-      curr.right = "0px";
+      if (element.current.className.slice(5) % 2 === 0) {
+        curr.right = "0px";
+      } else {
+        curr.left = "0px";
+      }
       curr.width = "auto";
       curr.zIndex = 0;
       c.innerHTML = `<img src='${dataAttr[0]}'/>`;
