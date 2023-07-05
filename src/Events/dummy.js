@@ -13,47 +13,72 @@ const Card = ({ keyVal, title, content }) => {
     let c = document.getElementById(Number(element.current.className.slice(5)));
     let dataAttr = element.current.getAttribute("data-attr").split(",");
 
-    let width = element.current.offsetWidth;
     let left = element.current.offsetLeft;
-    let totWidth, relElem;
-    if (!isExpanded) {
-      if (element.current.className.slice(5) % 2 === 0) {
-        relElem = document.getElementsByClassName(
+    let width = element.current.offsetWidth;
+    if (element.current.className.slice(5) % 2 === 0) {
+      if (!isExpanded) {
+        let relElem = document.getElementsByClassName(
           Number(element.current.className.slice(5)) - 1
         );
         curr.right = vw - (left + width) - 27 + "px";
-        totWidth = left + width - relElem[0].offsetLeft;
+        curr.maxWidth = "none";
+        let id = setInterval(frame, 10);
+        let totWidth = left + width - relElem[0].offsetLeft;
+        let totWidth100 = totWidth / 100;
+        function frame() {
+          if (width >= totWidth) {
+            clearInterval(id);
+            let content = "";
+            for (let i of dataAttr) {
+              content += `<img src='${i}'/>`;
+            }
+            c.innerHtml = content;
+          } else {
+            width += totWidth100;
+            curr.width = width + "px";
+          }
+        }
+        curr.zIndex = 100;
       } else {
-        relElem = document.getElementsByClassName(
+        curr.maxWidth = "540px";
+        curr.right = "0px";
+        curr.width = "auto";
+        curr.zIndex = 0;
+        c.innerHTML = `<img src='${dataAttr[0]}'/>`;
+      }
+    } else {
+      if (!isExpanded) {
+        let relElem = document.getElementsByClassName(
           Number(element.current.className.slice(5)) + 1
         );
         curr.left = left - 12 + "px";
-        totWidth = relElem[0].offsetLeft + relElem[0].offsetWidth - left;
-      }
-      curr.maxWidth = "none";
-      let id = setInterval(frame, 10);
-      let totWidth100 = totWidth / 100;
-      function frame() {
-        if (width >= totWidth) {
-          let content = "";
-          for (let i of dataAttr) {
-            content += `<img src='${i}'/>`;
-          }
-          c.innerHtml = content;
+        curr.maxWidth = "none";
 
-          clearInterval(id);
-        } else {
-          width += totWidth100;
-          curr.width = width + "px";
+        let id = setInterval(frame, 10);
+        let totWidth = relElem[0].offsetLeft + relElem[0].offsetWidth - left;
+        let totWidth100 = totWidth / 100;
+        function frame() {
+          if (width >= totWidth) {
+            clearInterval(id);
+            let content = "";
+            for (let i of dataAttr) {
+              content += `<img src=${i}/>`;
+            }
+            c.innerHTML = content;
+          } else {
+            width += totWidth100;
+            curr.width = width + "px";
+          }
         }
+
+        curr.zIndex = 100;
+      } else {
+        curr.maxWidth = "540px";
+        curr.left = "0px";
+        curr.width = "auto";
+        curr.zIndex = 0;
+        c.innerHTML = `<img src='${dataAttr[0]}'/>`;
       }
-      curr.zIndex = 100;
-    } else {
-      curr.maxWidth = "540px";
-      curr.right = "0px";
-      curr.width = "auto";
-      curr.zIndex = 0;
-      c.innerHTML = `<img src='${dataAttr[0]}'/>`;
     }
     handleExpand();
   };
@@ -116,5 +141,4 @@ const Card = ({ keyVal, title, content }) => {
   return keyVal % 2 === 0 ? rightAllign : leftAllign;
   // return leftAllign;
 };
-
 export default Card;
