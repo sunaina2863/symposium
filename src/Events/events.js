@@ -7,7 +7,7 @@ import q1 from "./Qutub-1.jpeg";
 const cardData = [
   {
     id: 1,
-    title: "Visit to Qutib Minar",
+    title: "Visit to Qutub Minar",
     content: [q1, q1, q1],
   },
   {
@@ -35,13 +35,9 @@ const cardData = [
     title: "Pitch Perfect",
     content: "This is the content of card 2.",
   },
+
   {
     id: 7,
-    title: "Freshers Party 2.0",
-    content: "This is the content of card 1.",
-  },
-  {
-    id: 8,
     title: "Freshers Party",
     content: [],
   },
