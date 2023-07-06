@@ -5,13 +5,19 @@ body {
   background-color: black;
   padding: 100px 0;
 }
-.card {
+.team-support {
+  width: 280px;
+  margin: auto;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: none;
+}
+.team-support-2 {
   width: 240px;
   margin: auto;
   border-radius: 0px 0px 30px 30px;
   box-shadow: none;
 }
-.card img {
+.team-support img {
   height: 240px;
 }
 
@@ -39,6 +45,7 @@ body {
 }
 .col-sm {
   display: flex;
+  padding-top: 10px;
   align-items: center;
   justify-content: center;
 }

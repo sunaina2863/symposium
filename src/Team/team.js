@@ -1,5 +1,7 @@
 import { React } from "react";
-import Cards from "./card.js";
+import CardsM from "./cardm.js";
+import CardsC from "./cardc.js";
+import CardsE from "./carde.js";
 import teamBg from "./team-bg.png";
 const cardDataTeam = [
   {
@@ -22,44 +24,44 @@ const cardDataTeam2 = [
   {
     id: 1,
     name: "Lovish",
-    designation: "Overall Coordinator",
+    designation: "Coordinator",
   },
   {
     id: 2,
     name: "Lovish",
-    designation: "Faculty Coordinator",
+    designation: "Coordinator",
   },
   {
     id: 3,
     name: "Lovish",
-    designation: "PG Coordinator",
+    designation: "Coordinator",
   },
   {
     id: 4,
     name: "Lovish",
-    designation: "PG Coordinator",
+    designation: "Coordinator",
   },
   {
     id: 5,
     name: "Lovish",
-    designation: "PG Coordinator",
+    designation: "Coordinator",
   },
 ];
 const cardDataTeam3 = [
   {
     id: 1,
     name: "Lovish",
-    designation: "Overall Coordinator",
+    designation: "Executive",
   },
   {
     id: 2,
     name: "Lovish",
-    designation: "Faculty Coordinator",
+    designation: "Executive",
   },
   {
     id: 3,
     name: "Lovish",
-    designation: "PG Coordinator",
+    designation: "Executive",
   },
 ];
 function Team() {
@@ -72,7 +74,7 @@ function Team() {
       <div className="container-fluid">
         <div className="row">
           {cardDataTeam.map((card) => (
-            <Cards
+            <CardsM
               key={card.id}
               name={card.name}
               designation={card.designation}
@@ -81,7 +83,7 @@ function Team() {
         </div>
         <div className="row">
           {cardDataTeam2.map((card) => (
-            <Cards
+            <CardsC
               key={card.id}
               name={card.name}
               designation={card.designation}
@@ -90,7 +92,7 @@ function Team() {
         </div>
         <div className="row">
           {cardDataTeam3.map((card) => (
-            <Cards
+            <CardsE
               key={card.id}
               name={card.name}
               designation={card.designation}
