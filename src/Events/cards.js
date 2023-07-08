@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 // import { CSSTransition } from "react-transition-group";
 const Card = ({ keyVal, title, content }) => {
   const element = useRef();
@@ -6,7 +6,14 @@ const Card = ({ keyVal, title, content }) => {
     document.documentElement.clientWidth || 0,
     window.innerWidth || 0
   );
+  const [isExpanded, setExpanded] = useState(false);
+  const handleExpand = () => {
+    setExpanded(!isExpanded);
+  };
 
+  let doNothing = () => {};
+  let baseStyling = { maxWidth: "540px", width: "auto", margin: "auto" };
+  let necessity = { background: "black" };
   //reframing of code, detect all the values previously and keep ready insted of finding them every time
   const change = () => {
     let curr = element.current.style;
@@ -61,13 +68,7 @@ const Card = ({ keyVal, title, content }) => {
     }
     handleExpand();
   };
-  const [isExpanded, setExpanded] = useState(false);
-  const handleExpand = () => {
-    setExpanded(!isExpanded);
-  };
-  let doNothing = () => {};
-  let baseStyling = { maxWidth: "540px", width: "auto", margin: "auto" };
-  let necessity = { background: "black" };
+
   let leftAllign = (
     <div className={`col-md-6 pt-3`} style={necessity}>
       <div

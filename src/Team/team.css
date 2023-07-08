@@ -17,6 +17,9 @@ body {
   border-radius: 0px 0px 30px 30px;
   box-shadow: none;
 }
+.team-support-2 img {
+  height: 240px;
+}
 .team-support img {
   height: 240px;
 }

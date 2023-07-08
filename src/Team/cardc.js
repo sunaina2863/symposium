@@ -1,13 +1,12 @@
 import React from "react";
 import "./team.css";
-import ig1 from "./OIP.jpg";
-const CardsC = ({ name, designation }) => {
+const CardsC = ({ name, designation, url }) => {
   return (
     <>
       <div className="col-sm text-center">
         <div className="card border-support text-center team-support-2">
           <div className="card bg-black team-support-2">
-            <img class="card-img-top" src={ig1} alt="Card" />
+            <img class="card-img-top" src={url} alt="Card" />
             <div
               className="card-body text-center"
               style={{ background: "linear-gradient(#d9d9d9,#5b5959)" }}
