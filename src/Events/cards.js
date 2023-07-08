@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 // import { CSSTransition } from "react-transition-group";
 const Card = ({ keyVal, title, content }) => {
   const element = useRef();
@@ -6,14 +6,7 @@ const Card = ({ keyVal, title, content }) => {
     document.documentElement.clientWidth || 0,
     window.innerWidth || 0
   );
-  const [isExpanded, setExpanded] = useState(false);
-  const handleExpand = () => {
-    setExpanded(!isExpanded);
-  };
 
-  let doNothing = () => {};
-  let baseStyling = { maxWidth: "540px", width: "auto", margin: "auto" };
-  let necessity = { background: "black" };
   //reframing of code, detect all the values previously and keep ready insted of finding them every time
   const change = () => {
     let curr = element.current.style;
@@ -46,13 +39,7 @@ const Card = ({ keyVal, title, content }) => {
           for (let i of dataAttr) {
             content += `<div class='column' ><img src='${i}'/></div>`;
           }
-          c.innerHTML = `
-      <div class="rows">
-        <div class="column"><img src="${dataAttr[0]}" alt="Image 1" /></div>
-        <div class="column"><p>${dataAttr[1]}</p></div>
-        <div class="column"><img src="${dataAttr[2]}" alt="Image 2" /></div>
-      </div>
-    `;
+          c.innerHTML = content + "</div>";
 
           clearInterval(id);
         } else {
@@ -70,11 +57,17 @@ const Card = ({ keyVal, title, content }) => {
       }
       curr.width = "auto";
       curr.zIndex = 0;
-      c.innerHTML = `<img src="${dataAttr[0]}" alt="teachers day" />`;
+      c.innerHTML = `<img src='${dataAttr[0]}'/>`;
     }
     handleExpand();
   };
-
+  const [isExpanded, setExpanded] = useState(false);
+  const handleExpand = () => {
+    setExpanded(!isExpanded);
+  };
+  let doNothing = () => {};
+  let baseStyling = { maxWidth: "540px", width: "auto", margin: "auto" };
+  let necessity = { background: "black" };
   let leftAllign = (
     <div className={`col-md-6 pt-3`} style={necessity}>
       <div
@@ -84,14 +77,12 @@ const Card = ({ keyVal, title, content }) => {
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
       >
-        <div className={`card-body ${isExpanded ? "expanded" : ""}`}
-          onClick={handleExpand}>
+        <div className="card-body">
           <h5 className={`card-title ${isExpanded ? "expandedL" : ""}`}>
             {title}
-          </h5>      
+          </h5>
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
-           {isExpanded && <p>{content[1]}</p>}
           </div>
         </div>
       </div>
@@ -115,14 +106,12 @@ const Card = ({ keyVal, title, content }) => {
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
       >
-        <div className={`card-body ${isExpanded ? "expanded" : ""}`}
-          onClick={handleExpand}>
-          <h5 className={`card-title ${isExpanded ? "expandedL" : ""}`}>
+        <div className="card-body">
+          <h5 className={`card-title ${isExpanded ? "expanded" : ""}`}>
             {title}
-          </h5>      
+          </h5>
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
-           {isExpanded && <p>{content[1]}</p>}
           </div>
         </div>
       </div>
