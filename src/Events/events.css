@@ -62,8 +62,10 @@
   background-color: #f9f9f9;
 }
 .card-body.expanded img {
-  max-width: 100%;
+  max-width: 50%;
+  float: left;
+  margin-right: 10px;
 }
 .card-body.expanded p {
-  margin-top: 10px;
+  margin-top: 60%;
 }
