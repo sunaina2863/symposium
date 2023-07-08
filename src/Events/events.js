@@ -1,4 +1,4 @@
-/*import React from "react";*/
+import React from "react";
 import "./events.css";
 import Card from "./cards";
 import png from "./events.png";
