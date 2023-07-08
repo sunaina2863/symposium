@@ -8,12 +8,12 @@ const cardData = [
   {
     id: 1,
     title: "Visit to Qutub Minar",
-    content: [q1,q1,q1],
+    content: [q1,"Text for the visit"],
   },
   {
     id: 2,
     title: "Teachers Day",
-    content: [td1],
+    content: [td1, "text for this event"],
     
   },
   {
