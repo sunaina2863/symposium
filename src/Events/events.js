@@ -31,7 +31,7 @@ const cardData = [
   {
     id: 6,
     title: "Pitch Perfect",
-    content: "This is the content of card 2.",
+    content: "Testing",
   {
     id: 7,
     title: "Freshers Party",
