@@ -8,39 +8,34 @@ const cardData = [
   {
     id: 1,
     title: "Visit to Qutub Minar",
-    content: [q1, q1, q1],
+    content: [q1, "Just some text", q1],
   },
   {
     id: 2,
     title: "Teachers Day",
     content: [td1],
+    
   },
   {
     id: 3,
     title: "Materials and Art",
     content: "This is the content of card 1.",
-  },
   {
     id: 4,
     title: "Intern Ke Funde",
     content: "This is the content of card 2.",
-  },
   {
     id: 5,
     title: "Bollywood Day",
     content: "This is the content of card 1.",
-  },
   {
     id: 6,
     title: "Pitch Perfect",
     content: "This is the content of card 2.",
-  },
-
   {
     id: 7,
     title: "Freshers Party",
     content: [],
-  },
 ];
 const Events = () => {
   let backgroundColor = "black";
