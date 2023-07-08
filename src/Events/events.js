@@ -19,7 +19,7 @@ const cardData = [
   {
     id: 3,
     title: "Materials and Art",
-    content: "This is the content of card 1.",
+    content: [q1,"This is the content of card 1."],
   {
     id: 4,
     title: "Intern Ke Funde",
