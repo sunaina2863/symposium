@@ -4,6 +4,7 @@ import CardsC from "./cardc.js";
 import CardsE from "./carde.js";
 import teamBg from "./team-bg.png";
 import lovish from "./Lovish_Overall Coordinator .jpg";
+import prof from "./prof.jpeg";
 import sunaina from "./sunaina_das_coordi.png";
 import rashi from "./Rashi Rajanna_PG Coordinator .jpg";
 import harsh from "./HarshKumar_events_Coordi.JPG";
@@ -25,9 +26,9 @@ const cardDataTeam = [
   },
   {
     id: 2,
-    name: "Lovish",
+    name: "Dr. R.Lakshmi Narayan",
     designation: "Faculty Coordinator",
-    url: "",
+    url: prof,
   },
 ];
 const cardDataTeam2 = [
