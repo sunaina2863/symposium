@@ -46,7 +46,13 @@ const Card = ({ keyVal, title, content }) => {
           for (let i of dataAttr) {
             content += `<div class='column' ><img src='${i}'/></div>`;
           }
-          c.innerHTML = content + "</div>";
+          c.innerHTML = `
+      <div class="rows">
+        <div class="column"><img src="${dataAttr[0]}" alt="Image 1" /></div>
+        <div class="column"><p>${dataAttr[1]}</p></div>
+        <div class="column"><img src="${dataAttr[2]}" alt="Image 2" /></div>
+      </div>
+    `;
 
           clearInterval(id);
         } else {
@@ -64,7 +70,7 @@ const Card = ({ keyVal, title, content }) => {
       }
       curr.width = "auto";
       curr.zIndex = 0;
-      c.innerHTML = `<img src='${dataAttr[0]}'/>`;
+      c.innerHTML = `<img src="${dataAttr[0]}" alt="teachers day" />`;
     }
     handleExpand();
   };
