@@ -83,7 +83,7 @@ const Card = ({ keyVal, title, content }) => {
             {title}
           </h5>
           {/* Additional Text */}
-          <p>{content.text}</p>
+          {typeof content === "string" && <p>{content}</p>}
           {/* Rest of the card content */}
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
@@ -114,8 +114,8 @@ const Card = ({ keyVal, title, content }) => {
           <h5 className={`card-title ${isExpanded ? "expanded" : ""}`}>
             {title}
           </h5>
-          {/* Additional Text */}
-          <p>{content.text}</p>
+           {/* Additional Text */}
+          {typeof content === "string" && <p>{content}</p>}
           {/* Rest of the card content */}
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
