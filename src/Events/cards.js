@@ -78,12 +78,14 @@ const Card = ({ keyVal, title, content }) => {
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
       >
-        <div className="card-body">
+        <div className={`card-body ${isExpanded ? "expanded" : ""}`}
+          onClick={handleExpand}>
           <h5 className={`card-title ${isExpanded ? "expandedL" : ""}`}>
             {title}
           </h5>      
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
+           {isExpanded && <p>{content[1]}</p>}
           </div>
         </div>
       </div>
@@ -107,12 +109,14 @@ const Card = ({ keyVal, title, content }) => {
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
       >
-        <div className="card-body">
-          <h5 className={`card-title ${isExpanded ? "expanded" : ""}`}>
+        <div className={`card-body ${isExpanded ? "expanded" : ""}`}
+          onClick={handleExpand}>
+          <h5 className={`card-title ${isExpanded ? "expandedL" : ""}`}>
             {title}
-          </h5>
+          </h5>      
           <div className="card-text" id={`${keyVal}`}>
             <img src={content[0]} alt="teachers day" />
+           {isExpanded && <p>{content[1]}</p>}
           </div>
         </div>
       </div>
