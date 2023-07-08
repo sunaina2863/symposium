@@ -54,3 +54,16 @@
     max-height: 200px;
   }
 }
+/* CSS for expanded card */
+.card-body {
+  cursor: pointer;
+}
+.card-body.expanded {
+  background-color: #f9f9f9;
+}
+.card-body.expanded img {
+  max-width: 100%;
+}
+.card-body.expanded p {
+  margin-top: 10px;
+}
