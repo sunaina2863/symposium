@@ -8,7 +8,7 @@ const cardData = [
   {
     id: 1,
     title: "Visit to Qutub Minar",
-    content: ["Just some text", "Just some text", "Just some text"],
+    content: [q1, q1, q1],
   },
   {
     id: 2,
