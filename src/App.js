@@ -7,6 +7,7 @@ import Footer from "./Home/footer";
 import Team from "./Team/team";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <>
