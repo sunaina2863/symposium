@@ -9,7 +9,7 @@ const CardsE = ({ name, designation, url }) => {
             <img class="card-img-top" src={url} alt="Card" />
             <div
               className="card-body text-center"
-              style={{ background: "linear-gradient(#e74c3c,#000000)" }}
+              style={{ background: "linear-gradient(#d9d9d9,#5b5959)" }}
             >
               <p className="card-text">{name}</p>
               <span> {designation}</span>

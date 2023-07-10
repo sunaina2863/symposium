@@ -5,6 +5,8 @@ import CardsE from "./carde.js";
 import teamBg from "./team-bg.png";
 import lovish from "./Lovish_Overall Coordinator .jpg";
 import prof from "./prof.jpeg";
+import himalaya from "./himalaya.jpg";
+import sonal from "./sonal.jpg";
 import sunaina from "./sunaina_das_coordi.png";
 import rashi from "./Rashi Rajanna_PG Coordinator .jpg";
 import harsh from "./HarshKumar_events_Coordi.JPG";
@@ -49,6 +51,18 @@ const cardDataTeam2 = [
     name: "Harsh",
     designation: "Events Coordinator",
     url: harsh,
+  },
+  {
+    id: 4,
+    name: "Sonal",
+    designation: "Creative Coordinator",
+    url: sonal,
+  },
+  {
+    id: 5,
+    name: "Himalaya",
+    designation: "Coordinator",
+    url: himalaya,
   },
 ];
 const cardDataTeam3 = [

@@ -10,7 +10,7 @@ const CardsM = ({ name, designation, url }) => {
             <div
               className="card-body text-center"
               style={{
-                background: "linear-gradient(#ffb347,#ffcc33)",
+                background: "linear-gradient(#d9d9d9,#5b5959)",
               }}
             >
               <p className="card-text">{name}</p>
