@@ -1,8 +1,13 @@
 .body-text{
     background-color:#1E1F1F;
+    font-size: 2rem;
+}
+
+.body-title{
+    font-size: 3rem;
+    font-style: bold;
 }
 
 p{
-    font-size: 30px;
     text-align: center;
 }
