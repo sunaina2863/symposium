@@ -19,6 +19,8 @@ import manoj from "./Manoj Kumar gorle_tech exe.jpg";
 import prasuk from "./Prasuk_jain_Events_exe.jpg";
 import vivek from "./Vivek_Publi Exe.PNG";
 import vidhi from "./VidhiAgarwal_Events_exe.jpg";
+import piyush from "./piyush.jpeg";
+import anop from "./anoop.jpeg";
 const cardDataTeam = [
   {
     id: 1,
@@ -119,6 +121,18 @@ const cardDataTeam3 = [
     name: "Vivek",
     designation: "Publicity Executive",
     url: vivek,
+  },
+  {
+    id: 10,
+    name: "Piyush",
+    designation: "Executive",
+    url: piyush,
+  },
+  {
+    id: 11,
+    name: "Anoop",
+    designation: "Events Executive",
+    url: anop,
   },
 ];
 function Team() {
