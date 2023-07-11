@@ -46,8 +46,8 @@ body {
   background: linear-gradient(#e4e4e4, #585757);
   margin: 0px;
 }
-.col-sm-4,
-.col-sm {
+.col-md-4,
+.col-md {
   display: flex;
   padding-top: 10px;
   align-items: center;
