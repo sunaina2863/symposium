@@ -82,7 +82,10 @@ function Achivements() {
         Batch of 2021
       </div>
       <div className="container-fluid text-center">
-        <div className="row" style={{ paddingTop: "30px" }}>
+        <div
+          className="row"
+          style={{ paddingTop: "30px", margin: "auto", maxWidth: "1000px" }}
+        >
           {cardData21.map((cardAchiv) => (
             <CardA
               dataId={cardAchiv.id}
@@ -97,7 +100,10 @@ function Achivements() {
         Batch of 2022
       </div>
       <div className="container-fluid text-center">
-        <div className="row" style={{ paddingTop: "30px" }}>
+        <div
+          className="row"
+          style={{ paddingTop: "30px", margin: "auto", maxWidth: "1000px" }}
+        >
           {cardData22.map((cardAchiv) => (
             <CardA
               dataId={cardAchiv.id}
