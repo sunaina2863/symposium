@@ -39,6 +39,11 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link mx-5" href="/Qp">
+                Question Papers
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link mx-5" href="/Team">
                 Team
               </a>

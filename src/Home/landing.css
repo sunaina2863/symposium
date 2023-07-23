@@ -2,18 +2,22 @@
   height: calc(100vh - 110px);
   width: 100%;
 }
+
 .landing-holder {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #d6d3d3;
   font-size: 96px;
   font-family: "Montserrats";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: center;
+  opacity: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #d6d3d3;
 }
 
 @media screen and (max-width: 768px) {
