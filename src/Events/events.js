@@ -63,25 +63,13 @@ const Events = () => {
     color: "#FEFAE0",
     height: "calc(100vh - 60px)",
   };
-  const textStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    color: "#D6D3D3",
-    textDecorationLine: "underline",
-    fontSize: "96px",
-    fontFamily: "Montserrat",
-    fontStyle: "normal",
-    fontWeight: "700",
-    lineHeight: "normal",
-    letterSpacing: "11.52px",
-  };
+
   return (
     <>
-      <div className="container-fluid text-center" style={introStyle}>
+      {/*@dev main division css rules inherited from team.css */}
+      <div className="container-fluid text-center main" style={introStyle}>
         <img src={png} class="img-fluid" alt="not available" />
-        <div style={textStyle}>Events</div>
+        <div className="name-holder">Events</div>
       </div>
       <div className="container-fluid text-center">
         <div className="row" style={rowStyle}>

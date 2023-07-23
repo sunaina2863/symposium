@@ -45,11 +45,14 @@ const cardData22 = [
     name: "hi",
   },
 ];
+
 function Achivements() {
   return (
     <>
       <div className="container-fluid main">
         <img src={achiveBg} class="img-fluid" alt="not available" />
+        {/* @dev name-holder css #inherited from events.css */}
+        <div className="name-holder">Achivements</div>
       </div>
       <div className="text-center text-white h2" style={{ paddingTop: "30px" }}>
         Batch of 2020
