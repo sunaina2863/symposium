@@ -11,9 +11,9 @@
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   width: 400px;
-  max-height: 120px;
+  max-height: 110px;
   border-radius: 40px;
-  margin-top: -120px;
+  margin-top: -110px;
   z-index: 1;
   direction: rtl;
   border: 3px solid grey;
@@ -39,11 +39,29 @@
   text-align: center;
   width: 200px;
 }
-.tager-data {
-  display: inline-block;
-  text-align: center;
-  width: 200px;
+
+.col-md-6.right {
+  float: right;
+  position: relative;
 }
-.achivement.right-fix .tager-data {
-  text-align: left;
+@media screen and (max-width: 768px) {
+  .holder {
+    margin-top: 0;
+    width: auto;
+    border-radius: 0 0 15px 15px;
+    max-height: 80px;
+    padding: 0px;
+  }
+  .achivement.right-fix .holder {
+    margin-top: 0;
+  }
+  .achivement .card-img-top {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .achivement.right-fix span {
+    width: auto;
+    margin-top: 0;
+    text-align: center;
+  }
 }

@@ -16,6 +16,12 @@ const cardData20 = [
     achivement: "OC @ mses",
     name: "hi",
   },
+  {
+    id: 3,
+    url: vivek,
+    achivement: "OC @ mses",
+    name: "hi",
+  },
 ];
 const cardData21 = [
   {
@@ -58,7 +64,10 @@ function Achivements() {
         Batch of 2020
       </div>
       <div className="container-fluid text-center">
-        <div className="row" style={{ paddingTop: "30px" }}>
+        <div
+          className="row"
+          style={{ paddingTop: "30px", margin: "auto", maxWidth: "1000px" }}
+        >
           {cardData20.map((cardAchiv) => (
             <CardA
               dataId={cardAchiv.id}

@@ -2,11 +2,12 @@ import { React } from "react";
 function CardA({ dataId, urlAchive, name, achivement }) {
   return (
     <>
-      <div className="col-md text-center" style={{ paddingTop: "30px" }}>
+      <div className="col-md-6" style={{ paddingTop: "30px" }}>
         <div
           className={`card bg-black achivement ${
             dataId % 2 === 0 ? "right-fix" : ""
           }`}
+          style={{ margin: "auto" }}
         >
           <img
             class="card-img-top"
