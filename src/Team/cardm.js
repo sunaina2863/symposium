@@ -3,7 +3,7 @@ import "./team.css";
 const CardsM = ({ name, designation, url }) => {
   return (
     <>
-      <div className="col-sm text-center">
+      <div className="col-md text-center">
         <div className="card border-support text-center team-support">
           <div className="card bg-black team-support">
             <img class="card-img-top" src={url} alt="Card" />

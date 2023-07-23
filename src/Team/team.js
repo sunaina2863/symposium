@@ -17,7 +17,7 @@ import gargi from "./Gargi_Publi_Exe.jpg";
 import divyansh from "./divyansh_Events_Exe.jpg";
 import manoj from "./Manoj Kumar gorle_tech exe.jpg";
 import prasuk from "./Prasuk_jain_Events_exe.jpg";
-import vivek from "./Vivek_Publi Exe.PNG";
+import vivek from "./vivek.jpeg";
 import vidhi from "./VidhiAgarwal_Events_exe.jpg";
 import piyush from "./piyush.jpeg";
 import anop from "./anoop.jpeg";

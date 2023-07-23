@@ -5,8 +5,8 @@ import Home from "./Home/home";
 import Events from "./Events/events";
 import Footer from "./Home/footer";
 import Team from "./Team/team";
+import Acheivements from "./acheivements/acheivements";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/acheivements" element={<Acheivements />} />
         </Routes>
       </BrowserRouter>
       <Footer></Footer>

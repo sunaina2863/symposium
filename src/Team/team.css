@@ -49,7 +49,7 @@ body {
 .col-md-4,
 .col-md {
   display: flex;
-  padding-top: 10px;
+  padding-top: 100px;
   align-items: center;
   justify-content: center;
 }
