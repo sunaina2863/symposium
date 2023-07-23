@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 // import { CSSTransition } from "react-transition-group";
-const Card = ({ keyVal, title, content }) => {
+const Card = ({ keyVal, title, content, description }) => {
   const element = useRef();
   let vw = Math.max(
     document.documentElement.clientWidth || 0,
@@ -12,7 +12,7 @@ const Card = ({ keyVal, title, content }) => {
     let curr = element.current.style;
     let c = document.getElementById(Number(element.current.className.slice(5)));
     let dataAttr = element.current.getAttribute("data-attr").split(",");
-
+    let dataDesc = element.current.getAttribute("data-desc");
     let width = element.current.offsetWidth;
     let left = element.current.offsetLeft;
     let totWidth, relElem;
@@ -39,6 +39,7 @@ const Card = ({ keyVal, title, content }) => {
           for (let i of dataAttr) {
             content += `<div class='column' ><img src='${i}'/></div>`;
           }
+          content += `<div class='column' ><p>${dataDesc}</p></div>`;
           c.innerHTML = content + "</div>";
 
           clearInterval(id);
@@ -76,13 +77,14 @@ const Card = ({ keyVal, title, content }) => {
         ref={element}
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
+        data-desc={description}
       >
         <div className="card-body">
           <h5 className={`card-title ${isExpanded ? "expandedL" : ""}`}>
             {title}
           </h5>
           <div className="card-text" id={`${keyVal}`}>
-            <img src={content[0]} alt="teachers day" />
+            <img src={content[0]} alt="event" />
           </div>
         </div>
       </div>
@@ -105,13 +107,14 @@ const Card = ({ keyVal, title, content }) => {
         ref={element}
         onClick={vw >= 768 ? change : doNothing}
         data-attr={content}
+        data-desc={description}
       >
         <div className="card-body">
           <h5 className={`card-title ${isExpanded ? "expanded" : ""}`}>
             {title}
           </h5>
           <div className="card-text" id={`${keyVal}`}>
-            <img src={content[0]} alt="teachers day" />
+            <img src={content[0]} alt="event" />
           </div>
         </div>
       </div>

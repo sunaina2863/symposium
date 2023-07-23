@@ -4,42 +4,51 @@ import Card from "./cards";
 import png from "./events.png";
 import td1 from "./Teachers-day-1.jpeg";
 import q1 from "./Qutub-1.jpeg";
+//@dev instructions for adding json attribute content
+// add at max 2 images and desctiption as a must
 const cardData = [
   {
     id: 1,
     title: "Visit to Qutub Minar",
-    content: [q1, q1, q1],
+    content: [q1, q1],
+    description: "Hello world this is a description.",
   },
   {
     id: 2,
     title: "Teachers Day",
-    content: [td1],
+    content: [td1, td1],
+    description: "Hello world this is a description. Just to entertain",
   },
   {
     id: 3,
     title: "Materials and Art",
     content: "This is the content of card 1.",
+    description: "Hello world this is a description.",
   },
   {
     id: 4,
     title: "Intern Ke Funde",
-    content: "This is the content of card 2.",
+    content: [td1, td1],
+    description: "Hello world this is a description.",
   },
   {
     id: 5,
     title: "Bollywood Day",
     content: "This is the content of card 1.",
+    description: "Hello world this is a description.",
   },
   {
     id: 6,
     title: "Pitch Perfect",
     content: "This is the content of card 2.",
+    description: "Hello world this is a description.",
   },
 
   {
     id: 7,
     title: "Freshers Party",
     content: [],
+    description: "Hello world this is a description.",
   },
 ];
 const Events = () => {
@@ -82,6 +91,7 @@ const Events = () => {
               title={card.title}
               content={card.content}
               keyVal={card.id}
+              description={card.description}
             />
           ))}
         </div>
