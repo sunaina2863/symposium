@@ -1,0 +1,49 @@
+.achivement {
+  width: 200px;
+  max-height: 226px;
+  text-decoration: none;
+  box-shadow: none;
+}
+.achivement.right-fix {
+  direction: rtl;
+}
+.holder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  width: 400px;
+  max-height: 120px;
+  border-radius: 40px;
+  margin-top: -120px;
+  z-index: 1;
+  direction: rtl;
+  border: 3px solid grey;
+}
+.achivement .card-img-top {
+  border-radius: 25px;
+}
+.achivement span {
+  display: block;
+  color: black;
+  width: 200px;
+  text-align: center;
+}
+.achivement.right-fix .holder {
+  direction: ltr;
+  margin-top: -226px;
+}
+.achivement.right-fix span {
+  position: relative;
+  left: 0;
+  top: 0;
+  direction: ltr;
+  text-align: center;
+  width: 200px;
+}
+.tager-data {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+.achivement.right-fix .tager-data {
+  text-align: left;
+}
