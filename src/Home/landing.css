@@ -1,0 +1,22 @@
+.landing-img {
+  height: calc(100vh - 110px);
+}
+.landing-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #d6d3d3;
+  font-size: 96px;
+  font-family: "Montserrats";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-holder {
+    font-size: 40px;
+  }
+}

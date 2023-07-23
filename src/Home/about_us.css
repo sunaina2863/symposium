@@ -1,13 +1,18 @@
-.body-text{
-    background-color:#1E1F1F;
-    font-size: 2rem;
+.body-text {
+  background-color: #1e1f1f;
+  font-size: 2rem;
 }
 
-.body-title{
-    font-size: 3rem;
-    font-style: bold;
+.body-title {
+  font-size: 3rem;
+  font-style: bold;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about-us {
+    font-size: 21px;
+  }
 }
