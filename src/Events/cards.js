@@ -8,7 +8,7 @@ const Card = ({ keyVal, title, content, description }) => {
   );
 
   //reframing of code, detect all the values previously and keep ready insted of finding them every time
-  const change = () => {
+  let change = () => {
     let curr = element.current.style;
     let c = document.getElementById(Number(element.current.className.slice(5)));
     let dataAttr = element.current.getAttribute("data-attr").split(",");
@@ -66,7 +66,20 @@ const Card = ({ keyVal, title, content, description }) => {
   const handleExpand = () => {
     setExpanded(!isExpanded);
   };
-  let doNothing = () => {};
+  // doNothing is used to handle the medium screen and lesser devices
+  let doNothing = () => {
+    let c = document.getElementById(Number(element.current.className.slice(5)));
+    let dataAttr = element.current.getAttribute("data-attr").split(",");
+    let dataDesc = element.current.getAttribute("data-desc");
+    if (!isExpanded) {
+      c.innerHTML = `<img src='${dataAttr[0]}'/><div class='small-screen-expander'>${dataDesc}</div>`;
+      console.log("hi");
+    } else {
+      c.innerHTML = `<img src='${dataAttr[0]}'/>`;
+      console.log("hi");
+    }
+    handleExpand();
+  };
   let baseStyling = { maxWidth: "540px", width: "auto", margin: "auto" };
   let necessity = { background: "black" };
   let leftAllign = (

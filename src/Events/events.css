@@ -18,7 +18,7 @@
   box-shadow: 0 0 10px darkblue;
 }
 .card-title.expandedL {
-  left: calc(100% - 190px);
+  left: calc(100% - 140px);
   padding: 10px 2px;
 }
 .card-text img {
@@ -56,6 +56,12 @@
   font-weight: 700;
   line-height: normal;
 }
+.small-screen-expander {
+  display: block;
+  font-size: medium;
+  font-size: 18px;
+  color: black;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
   .column {
@@ -67,5 +73,13 @@
   }
   .name-holder {
     font-size: 48px;
+  }
+  .card-title.expandedL {
+    bottom: -20px;
+  }
+  .card-title.expanded {
+    left: calc(100% - 140px);
+    padding: 10px 2px;
+    bottom: -20px;
   }
 }

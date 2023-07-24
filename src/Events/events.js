@@ -9,9 +9,10 @@ import q1 from "./Qutub-1.jpeg";
 const cardData = [
   {
     id: 1,
-    title: "Visit to Qutub Minar",
+    title: "Qutub Minar",
     content: [q1, q1],
-    description: "Hello world this is a description.",
+    description:
+      "Hello world this is a description. Hello world this is a description. Just to entertain Hello world this is a description. Just to entertain",
   },
   {
     id: 2,
