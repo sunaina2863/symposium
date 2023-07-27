@@ -13,24 +13,18 @@ import vivek from "./vivek.jpeg";
 const cardData20 = [
   {
     id: 1,
-    url: harsh,
-    achivement: "CTM @ OCS",
-    name: "Harsh Kumar",
-  },
-  {
-    id: 2,
     url: sameer,
     achivement: "OC @ eDC",
     name: "Sameer Akthar",
   },
   {
-    id: 3,
+    id: 2,
     url: ram,
     achivement: "Tech OC @ OCS",
     name: "Ram Munde",
   },
   {
-    id: 4,
+    id: 3,
     url: rajat,
     achivement: "CTM @ Dev Club",
     name: "Rajat Gupta",
@@ -39,18 +33,24 @@ const cardData20 = [
 const cardData21 = [
   {
     id: 1,
+    url: harsh,
+    achivement: "CTM @ OCS",
+    name: "Harsh Kumar",
+  },
+  {
+    id: 2,
     url: aliza,
     achivement: " Cultural Secretary",
     name: "Aliza",
   },
   {
-    id: 2,
+    id: 3,
     url: siddant,
     achivement: " Cultural Secretary",
     name: "Siddhant",
   },
   {
-    id: 3,
+    id: 4,
     url: sarthak,
     achivement: "Convenor",
     name: "Sarthak",
