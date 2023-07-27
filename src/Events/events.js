@@ -23,7 +23,7 @@ const cardData = [
   {
     id: 3,
     title: "Materials and Art",
-    content: "This is the content of card 1.",
+    content: [td1 , td1],
     description: "Hello world this is a description.",
   },
   {
