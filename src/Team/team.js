@@ -95,7 +95,7 @@ const cardDataTeam3 = [
   {
     id: 5,
     name: "Divyansh",
-    designation: "Events Executive",
+    designation: "Design Executive",
     url: divyansh,
   },
   {
