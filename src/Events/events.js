@@ -3,16 +3,16 @@ import "./events.css";
 import Card from "./cards";
 import png from "./events.png";
 import td1 from "./Teachers-day-1.jpeg";
-import td2 from "./Teachers-day-2";
-import mt1 from "./MaT1";
-import mt2 from "./MaT2";
-import i1 from "./intern1";
-import i2 from "./intern2";
-import b1 from "./bollywoodDay";
-import p1 from "./pitch1";
-import p2 from "./pitch2";
-import f1 from "./freshersParty1";
-import f2 from "./freshersParty2";
+import td2 from "./Teachers-day-2.jpeg";
+import mt1 from "./MaT1.JPG";
+import mt2 from "./MaT2.JPG";
+import i1 from "./intern1.jpeg";
+import i2 from "./intern2.jpeg";
+import b1 from "./bollywoodDay.jpeg";
+import p1 from "./pitch1.jpeg";
+import p2 from "./pitch2.jpeg";
+import f1 from "./freshersParty1.jpeg";
+import f2 from "./freshersParty2.jpeg";
 import q1 from "./Qutub-1.jpeg";
 //@dev instructions for adding json attribute content
 // add at max 2 images and desctiption as a must
