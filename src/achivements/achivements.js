@@ -14,7 +14,7 @@ const cardData20 = [
   {
     id: 1,
     url: harsh,
-    achivement: "OCS CTM",
+    achivement: "CTM @ OCS",
     name: "Harsh Kumar",
   },
   {
@@ -26,13 +26,13 @@ const cardData20 = [
   {
     id: 3,
     url: ram,
-    achivement: "OCS Technical OC",
+    achivement: "Technical OC @ OCS",
     name: "Ram Munde",
   },
   {
     id: 4,
     url: rajat,
-    achivement: "Coordinator",
+    achivement: "CTM @ Dev Club",
     name: "Rajat Gupta",
   },
 ];

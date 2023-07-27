@@ -1,6 +1,5 @@
 .achivement {
   width: 200px;
-  max-height: 300px;
   text-decoration: none;
   box-shadow: none;
 }
@@ -60,6 +59,7 @@
   }
   .achivement .card-img-top {
     border-radius: 15px 15px 0 0;
+    height: 300px;
   }
 
   .achivement.right-fix span {

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand mx-4" href="#">
+        <a class="navbar-brand mx-4" href="/">
           <img src={Logo} alt="Logo" width="72" height="72" />
         </a>
 
