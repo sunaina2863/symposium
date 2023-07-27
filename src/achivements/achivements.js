@@ -5,7 +5,7 @@ import "./achivements.css";
 import harsh from "./photos/20/Harsh_Kumar_OCS_CTM.jpg";
 import sameer from "./photos/20/Sameer Akhtar_OC Edc.jpg";
 import ram from "./photos/20/Ram_Munde_OC_OCS_Convener_MS.PNG";
-import rajat from "./photos/20/Rajat Gupta_Coordinator Dev Club.jpg";
+import rajat from "./photos/20/rajat.jpeg";
 import aliza from "./photos/21/Aliza_Cultural secretary .JPG";
 import siddant from "./photos/21/Cultural Secretary, Kumaon_Siddhant Dad.jpg";
 import sarthak from "./photos/21/Sarthak_Convenor.jpg";
