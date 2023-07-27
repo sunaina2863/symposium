@@ -2,39 +2,58 @@ import { React } from "react";
 import achiveBg from "./acheive.png";
 import CardA from "./carda";
 import "./achivements.css";
+import harsh from "./photos/20/Harsh_Kumar_OCS_CTM.jpg";
+import sameer from "./photos/20/Sameer Akhtar_OC Edc.jpg";
+import ram from "./photos/20/Ram_Munde_OC_OCS_Convener_MS.PNG";
+import rajat from "./photos/20/Rajat Gupta_Coordinator Dev Club.jpg";
+import aliza from "./photos/21/Aliza_Cultural secretary .JPG";
+import siddant from "./photos/21/Cultural Secretary, Kumaon_Siddhant Dad.jpg";
+import sarthak from "./photos/21/Sarthak_Convenor.jpg";
 import vivek from "./vivek.jpeg";
 const cardData20 = [
   {
     id: 1,
-    url: vivek,
-    achivement: "OC @ eDC",
-    name: "hi",
+    url: harsh,
+    achivement: "OCS CTM",
+    name: "Harsh Kumar",
   },
   {
     id: 2,
-    url: vivek,
-    achivement: "OC @ mses",
-    name: "hi",
+    url: sameer,
+    achivement: "OC @ eDC",
+    name: "Sameer Akthar",
   },
   {
     id: 3,
-    url: vivek,
-    achivement: "OC @ mses",
-    name: "hi",
+    url: ram,
+    achivement: "OCS Technical OC",
+    name: "Ram Munde",
+  },
+  {
+    id: 4,
+    url: rajat,
+    achivement: "Coordinator",
+    name: "Rajat Gupta",
   },
 ];
 const cardData21 = [
   {
     id: 1,
-    url: vivek,
-    achivement: "OC @ eDC",
-    name: "hi",
+    url: aliza,
+    achivement: " Cultural Secretary",
+    name: "Aliza",
   },
   {
     id: 2,
-    url: vivek,
-    achivement: "OC @ mses",
-    name: "hi",
+    url: siddant,
+    achivement: " Cultural Secretary",
+    name: "Siddhant",
+  },
+  {
+    id: 3,
+    url: sarthak,
+    achivement: "Convenor",
+    name: "Sarthak",
   },
 ];
 const cardData22 = [

@@ -1,6 +1,6 @@
 .achivement {
   width: 200px;
-  max-height: 226px;
+  max-height: 300px;
   text-decoration: none;
   box-shadow: none;
 }
@@ -20,16 +20,19 @@
 }
 .achivement .card-img-top {
   border-radius: 25px;
+  height: 300px;
 }
+
 .achivement span {
   display: block;
   color: black;
   width: 200px;
   text-align: center;
+  font-size: 14px;
 }
 .achivement.right-fix .holder {
   direction: ltr;
-  margin-top: -226px;
+  margin-top: -300px;
 }
 .achivement.right-fix span {
   position: relative;

@@ -29,7 +29,7 @@ body {
   font-family: Monteserat;
   font-style: normal;
 }
-.card-body p {
+.card-body .card-text {
   margin: 0;
   color: black;
   font-size: 24px;

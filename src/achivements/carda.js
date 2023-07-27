@@ -26,7 +26,9 @@ function CardA({ dataId, urlAchive, name, achivement }) {
             >
               {name}
             </span>
-            <span style={{ color: "#21272A", fontWeight: "bold" }}>
+            <span
+              style={{ color: "#21272A", fontWeight: "bold", fontSize: "14px" }}
+            >
               {" "}
               {achivement}
             </span>
