@@ -26,7 +26,7 @@ const cardData20 = [
   {
     id: 3,
     url: ram,
-    achivement: "Technical OC @ OCS",
+    achivement: "Tech OC @ OCS",
     name: "Ram Munde",
   },
   {
