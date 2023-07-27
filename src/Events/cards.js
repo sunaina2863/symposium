@@ -15,20 +15,16 @@ const Card = ({ keyVal, title, content, description }) => {
     let dataDesc = element.current.getAttribute("data-desc");
     let width = element.current.offsetWidth;
     let left = element.current.offsetLeft;
-    let totWidth, relElem;
+    let totWidth, relElemL, relElemR;
+    relElemL = document.getElementsByClassName(2);
+    relElemR = document.getElementsByClassName(1);
     if (!isExpanded) {
       if (element.current.className.slice(5) % 2 === 0) {
-        relElem = document.getElementsByClassName(
-          Number(element.current.className.slice(5)) - 1
-        );
         curr.right = vw - (left + width) - 27 + "px";
-        totWidth = left + width - relElem[0].offsetLeft;
+        totWidth = left + width - relElemR[0].offsetLeft;
       } else {
-        relElem = document.getElementsByClassName(
-          Number(element.current.className.slice(5)) + 1
-        );
         curr.left = left - 12 + "px";
-        totWidth = relElem[0].offsetLeft + relElem[0].offsetWidth - left;
+        totWidth = relElemL[0].offsetLeft + relElemL[0].offsetWidth - left;
       }
       curr.maxWidth = "none";
       let id = setInterval(() => frame(), 10);

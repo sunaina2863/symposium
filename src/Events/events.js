@@ -22,44 +22,50 @@ const cardData = [
     title: "Qutub Minar",
     content: [q1, q1],
     description:
-    "MSES organized a memorable trip to Qutub Minar for MLL 452 course students. Profs. Rajesh Prasad and Nityanand Goswami provided valuable guidance, uncovering the monument's material science aspects and historical significance. An enlightening and enjoyable real-world experience",
+      "MSES organized a memorable trip to Qutub Minar for MLL 452 course students. Profs. Rajesh Prasad and Nityanand Goswami provided valuable guidance, uncovering the monument's material science aspects and historical significance. An enlightening and enjoyable real-world experience",
   },
   {
     id: 2,
     title: "Teachers Day",
     content: [td1, td2],
-    description: "MSES celebrated Teachers' Day in LHC108 with Prof. Rajesh Prasad's inspiring speech. Enthusiastic students expressed gratitude towards teachers, creating a memorable event fostering respect and admiration within the community",
+    description:
+      "MSES celebrated Teachers' Day in LHC108 with Prof. Rajesh Prasad's inspiring speech. Enthusiastic students expressed gratitude towards teachers, creating a memorable event fostering respect and admiration within the community",
   },
   {
     id: 3,
     title: "Materials and Art",
-    content: [mt1 , mt2],
-    description: "In MLL251, Professor Lakshmi Narayan guided a captivating techno-cultural term paper, Material and Art, showcasing students' innovative projects. From smart materials to sustainable engineering, creativity and expertise in combining materials and art were exhibited. The event was engaging and memorable, demonstrating students' passion and dedication.",
+    content: [mt1, mt2],
+    description:
+      "In MLL251, Professor Lakshmi Narayan guided a captivating techno-cultural term paper, Material and Art, showcasing students' innovative projects. From smart materials to sustainable engineering, creativity and expertise in combining materials and art were exhibited. The event was engaging and memorable, demonstrating students' passion and dedication.",
   },
   {
     id: 4,
     title: "Intern Ke Funde",
     content: [i1, i2],
-    description: "MSES hosted Intern Ke Fundae on Feb 6, 2023. Seniors shared valuable internship experiences, offering comprehensive guidance on resumes, interviews, and networking. Students were empowered to pursue their career goals",
+    description:
+      "MSES hosted Intern Ke Fundae on Feb 6, 2023. Seniors shared valuable internship experiences, offering comprehensive guidance on resumes, interviews, and networking. Students were empowered to pursue their career goals",
   },
   {
     id: 5,
     title: "Bollywood Day",
     content: [b1],
-    description: "Tryst'23, in collaboration with MSES, hosted a captivating talk with Prof. Lakshmi Narayan Ramasubramanian, exploring misguided themes in Bollywood films. Attendees gained insightful life lessons from even the 'bad' movies, deepening their understanding of Indian cinema's cultural impact",
+    description:
+      "Tryst'23, in collaboration with MSES, hosted a captivating talk with Prof. Lakshmi Narayan Ramasubramanian, exploring misguided themes in Bollywood films. Attendees gained insightful life lessons from even the 'bad' movies, deepening their understanding of Indian cinema's cultural impact",
   },
   {
     id: 6,
     title: "Pitch Perfect",
-    content: [p1,p2],
-    description: "Pitch Perfect: Materials Edition by Tryst'23 and MSES was an exhilarating event showcasing innovative material concepts. Participants demonstrated creativity and problem-solving skills in one-minute pitches, impressing the judging panel. The competition highlighted the remarkable talent and imagination within the material science community, leaving a lasting impression on attendees",
+    content: [p1, p2],
+    description:
+      "Pitch Perfect: Materials Edition by Tryst'23 and MSES was an exhilarating event showcasing innovative material concepts. Participants demonstrated creativity and problem-solving skills in one-minute pitches, impressing the judging panel. The competition highlighted the remarkable talent and imagination.",
   },
 
   {
     id: 7,
     title: "Freshers Party",
     content: [f1, f2],
-    description: "The Material Science Department's Freshers Party warmly welcomed the new 2022 students. It fostered connections, friendships, and an inclusive environment filled with joy, music, and dance. MSES organized a memorable event where everyone felt a sense of belonging",
+    description:
+      "The Material Science Department's Freshers Party warmly welcomed the new 2022 students. It fostered connections, friendships, and an inclusive environment filled with joy, music, and dance. MSES organized a memorable event where everyone felt a sense of belonging",
   },
 ];
 const Events = () => {
