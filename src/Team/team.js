@@ -94,9 +94,9 @@ const cardDataTeam3 = [
   },
   {
     id: 5,
-    name: "Divyansh",
-    designation: "Design Executive",
-    url: divyansh,
+    name: "Anoop",
+    designation: "Events Executive",
+    url: anop,
   },
   {
     id: 6,
@@ -127,12 +127,6 @@ const cardDataTeam3 = [
     name: "Piyush",
     designation: "Executive",
     url: piyush,
-  },
-  {
-    id: 11,
-    name: "Anoop",
-    designation: "Events Executive",
-    url: anop,
   },
 ];
 function Team() {
