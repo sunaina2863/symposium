@@ -9,7 +9,7 @@ import rajat from "./photos/20/rajat.jpeg";
 import aliza from "./photos/21/Aliza_Cultural secretary .JPG";
 import siddant from "./photos/21/Cultural Secretary, Kumaon_Siddhant Dad.jpg";
 import sarthak from "./photos/21/Sarthak_Convenor.jpg";
-import vivek from "./vivek.jpeg";
+import aditya from "./photos/20/aditya.jpeg";
 const cardData20 = [
   {
     id: 1,
@@ -28,6 +28,12 @@ const cardData20 = [
     url: rajat,
     achivement: "CTM @ Dev Club",
     name: "Rajat Gupta",
+  },
+  {
+    id: 4,
+    url: aditya,
+    achivement: "Co-OC @ eDc",
+    name: "Aaditya",
   },
 ];
 const cardData21 = [

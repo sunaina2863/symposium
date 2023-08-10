@@ -2,6 +2,7 @@
   "name": "mses-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://msesoc.iitd.ac.in",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -19,6 +20,7 @@
     "react-router-dom": "^6.14.0",
     "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.5",
+    "serve": "^14.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

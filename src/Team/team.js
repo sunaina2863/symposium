@@ -14,7 +14,6 @@ import yuvraj from "./Yuvraj_exe.jpg";
 import aryan from "./Aryan_Publi exe.jpeg";
 import chirag from "./Chirag_TechExecutive.jpg";
 import gargi from "./Gargi_Publi_Exe.jpg";
-import divyansh from "./divyansh_Events_Exe.jpg";
 import manoj from "./Manoj Kumar gorle_tech exe.jpg";
 import prasuk from "./Prasuk_jain_Events_exe.jpg";
 import vivek from "./vivek.jpeg";
