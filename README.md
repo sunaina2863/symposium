@@ -1,6 +1,6 @@
 # Important
 
-This are the offical github repo of material science & Engineering society, IIT Delhi
+This are the offical github repo of Symposium (MSES), IIT Delhi
 
 Ensure proper server configuration, as react requires some defined configurations for routers
 
