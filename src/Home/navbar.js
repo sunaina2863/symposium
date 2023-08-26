@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "./logoblack.png";
 import "./navbar.css";
-import MSESlogo from "./MSESlogo.png";
 import Material from "./Material Science & Engineering Society (1).svg"
 
 const Navbar = () => {
