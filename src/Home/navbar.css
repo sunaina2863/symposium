@@ -98,7 +98,9 @@
     float: left;
     margin-right: 15px;
     /* margin-block: auto; */
-    margin-top: -10px;
+    margin-top: -12.5px;
+    height: 76px;
+    width: 80px
 }
 img.mat-text {
     margin-top: 16px;
