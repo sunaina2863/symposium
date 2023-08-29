@@ -1,13 +1,14 @@
 .social-icons {
   display: inline-block;
-  color: grey;
+  color: #00EED0;
 }
 
 .icon {
   transition: transform 0.3s ease;
-  color: grey;
+  color: #00EED0;
 }
 
 .icon:hover {
   transform: scale(1.4);
 }
+

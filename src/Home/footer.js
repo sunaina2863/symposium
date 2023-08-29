@@ -5,18 +5,20 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+
 import "./footer.css";
+
 const Footer = () => {
   const copyRightStyle = {
-    borderColor: "#D8F3DC",
+    borderColor: "#00EED0",
   };
   const footerStyle = {
-    background: "#1E1F1F",
-    color: "#FEFAE0",
+    background: "#02153D",
+    color: "#00EED0",
     padding: "15px 0 0",
   };
   const contactUsStyle = {
-    color: "#FEFAE0",
+    color: "#00EED0",
   };
   
   return (
@@ -52,7 +54,7 @@ const Footer = () => {
             6283262790
           </a>
         </div>
-        <div style={copyRightStyle} className="border-top pt-3">
+        <div style={copyRightStyle} className="border-top pt-3 copyright">
           <p>©Copyright DMSE, IIT Delhi</p>
         </div>
       </footer>
