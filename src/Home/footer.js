@@ -11,6 +11,8 @@ import "./footer.css";
 const Footer = () => {
   const copyRightStyle = {
     borderColor: "#00EED0",
+    fontSize: "1.3rem", // Updated font size
+    fontFamily: "Inria Sans Bold", // Updated font style
   };
   const footerStyle = {
     background: "#02153D",
@@ -19,12 +21,14 @@ const Footer = () => {
   };
   const contactUsStyle = {
     color: "#00EED0",
+    fontSize: "1.3rem", // Updated font size
+    fontFamily: "Inria Sans Bold", // Updated font style
   };
   
   return (
     <>
       <footer className="container-fluid text-center p-3" style={footerStyle}>
-        <h3 className="pb-3 ">Follow us on </h3>
+        <h2 className="pb-3 ">Follow us on </h2>
         <div className="social-icons">
           <a href="" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" />
