@@ -1,11 +1,9 @@
 import "./App.css";
 import Navbar from "./Home/navbar";
 import Home from "./Home/home";
-import Events from "./Events/events";
+import Sponsors from "./Sponsors/sponsors";
 import Footer from "./Home/footer";
 import Team from "./Team/team";
-import Acheivements from "./achivements/achivements";
-import Qp from "./Qp/qp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,10 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/achievemnts" element={<Acheivements />} />
-          <Route path="/qp" element={<Qp />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/contactus" element={<Team />} />
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
