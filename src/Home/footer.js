@@ -5,24 +5,30 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+
 import "./footer.css";
+
 const Footer = () => {
   const copyRightStyle = {
-    borderColor: "#D8F3DC",
+    borderColor: "#00EED0",
+    fontSize: "1.3rem", // Updated font size
+    fontFamily: "Inria Sans Bold", // Updated font style
   };
   const footerStyle = {
-    background: "#1E1F1F",
-    color: "#FEFAE0",
+    background: "#02153D",
+    color: "#00EED0",
     padding: "15px 0 0",
   };
   const contactUsStyle = {
-    color: "#FEFAE0",
+    color: "#00EED0",
+    fontSize: "1.3rem", // Updated font size
+    fontFamily: "Inria Sans Bold", // Updated font style
   };
   
   return (
     <>
       <footer className="container-fluid text-center p-3" style={footerStyle}>
-        <h3 className="pb-3 ">Follow us on </h3>
+        <h2 className="pb-3 ">Follow us on </h2>
         <div className="social-icons">
           <a href="" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" />
@@ -52,7 +58,7 @@ const Footer = () => {
             6283262790
           </a>
         </div>
-        <div style={copyRightStyle} className="border-top pt-3">
+        <div style={copyRightStyle} className="border-top pt-3 copyright">
           <p>©Copyright DMSE, IIT Delhi</p>
         </div>
       </footer>
