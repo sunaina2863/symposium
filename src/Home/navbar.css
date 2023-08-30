@@ -37,8 +37,9 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #1b9bff;
+    /* background: #00EED0; */
     transition: .5s;
+    
   }
   .checkbtn{
     font-size: 30px;
@@ -87,7 +88,7 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      /* color: #0082e6; */
     }
     #check:checked ~ ul{
       left: 0;

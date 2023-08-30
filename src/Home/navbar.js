@@ -1,3 +1,4 @@
+
 import React from "react";
 import Logo from "./MSES_Logo.svg";
 import "./navbar.css";
@@ -18,7 +19,7 @@ const Navbar = () => {
         </div>
       </label>
       <ul>
-        <li><a class="active" href="/">Home</a></li>
+        <li><a class="active" href="#">Home</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
         <li><a href="/team">Team</a></li>
         
