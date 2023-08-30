@@ -115,3 +115,14 @@ img.mat-text {
         width: 140px;
     }
 }
+
+@font-face {
+  font-family: "Inria Sans Bold";
+  src: url("../InriaSans-Bold.ttf") format("truetype"); /* Adjust the path accordingly */
+  font-weight: bold;
+  font-style: normal;
+}
+
+ul li {
+  font-family: "Inria Sans Bold"
+}
