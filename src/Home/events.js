@@ -1,18 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import './events.css'; // Import your CSS file for styling
-import {eventData} from "./eventData";
+import React from 'react';
+import './events.css';
+import eventsdata from './events.json';
 
-function Events() {
-
+function EventGallery() {
   return (
     <div className="event-gallery">
       <h2>Event Gallery</h2>
       <div className="event-list">
-        {eventData.map(event => (
+        {eventsdata.map(event => (
           <div key={event.id} className="event-card">
-            <img src={event.image} alt={event.title} className="event-image" />
+            <img src={event.image} alt={event.event} className="event-image" />
             <div className="event-details">
-              <p className="event-title">{event.desc}</p>
+              <p className="event-title">{event.event}</p>
             </div>
           </div>
         ))}
@@ -21,4 +20,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default EventGallery;
