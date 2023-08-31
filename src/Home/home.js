@@ -4,7 +4,7 @@ import Events from "./events"
 const Home = () => {
     return (
         <>
-            <Events></Events>
+            <Events/>
         </>
     )
 };
