@@ -9,6 +9,8 @@
 }
 body {
   overflow-x: scroll;
+  background-color: #19335A;
+  ;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
