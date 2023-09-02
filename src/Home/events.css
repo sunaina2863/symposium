@@ -1,6 +1,5 @@
 .event-gallery {
   text-align: center;
-  padding: 20px;
   background: url("./back.png");
   background-repeat: auto;
 }
@@ -36,8 +35,8 @@
 }
 
 .event-image {
-  max-width: 45%; /* Adjust as needed */
   height: auto;
+  flex-direction: column;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
