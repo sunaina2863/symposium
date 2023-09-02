@@ -4,7 +4,7 @@ import Home from "./Home/home";
 import Sponsors from "./Sponsors/sponsors";
 import Footer from "./Home/footer";
 import Team from "./Team/team";
-import About from "./About/about.js";
+import About from "./About/about";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
