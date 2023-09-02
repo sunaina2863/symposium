@@ -1,12 +1,9 @@
 .event-gallery {
   text-align: center;
   padding: 20px;
-}
-.event-gallery .container {
   background: url("./back.png");
   background-repeat: auto;
 }
-
 .event-data {
   justify-content: center;
   padding: 10px;
@@ -61,4 +58,6 @@
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
 }
