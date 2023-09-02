@@ -1,5 +1,6 @@
 .event-gallery {
   text-align: center;
+
   background: url("./back.png");
   background-repeat: auto;
 }
@@ -16,12 +17,7 @@
 .title {
   justify-content: center;
 }
-.event-card {
-  background-color: #4675c0;
-  border: 1px solid #ccc;
-  margin: 40px;
-  width: 900px;
-  height: 360px;
+/* .event-card {
   position: relative;
   border-radius: 30px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -32,7 +28,7 @@
 
 .event-card:hover {
   transform: translateY(-5px);
-}
+} */
 
 .event-image {
   height: auto;
@@ -59,4 +55,8 @@
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
+  .card {
+    max-width: 360px;
+    margin: auto;
+  }
 }
