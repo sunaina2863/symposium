@@ -1,10 +1,10 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faTwitter,
-//   faInstagram,
-//   faYoutube,
-// } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 import "./footer.css";
 
@@ -31,21 +31,21 @@ const Footer = () => {
         <h2 className="pb-3 ">Follow us on </h2>
         <div className="social-icons">
           <a href="" target="_blank" rel="noopener noreferrer">
-            {/* <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" /> */}
+            <FontAwesomeIcon icon={faTwitter} size="xl" className="icon mx-2" /> 
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            {/* <FontAwesomeIcon icon={faYoutube} size="xl" className="icon mx-2" /> */}
+          <FontAwesomeIcon icon={faYoutube} size="xl" className="icon mx-2" /> 
           </a>
           <a
             href="https://www.instagram.com/mses.iitd/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* <FontAwesomeIcon
+           <FontAwesomeIcon
               icon={faInstagram}
               size="xl"
               className="icon mx-2"
-            /> */}
+            /> 
           </a>
         </div>
         <div className="contact pt-5 pb-3">
