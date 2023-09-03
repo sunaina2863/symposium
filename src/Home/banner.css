@@ -36,3 +36,16 @@
   line-height: normal;
   letter-spacing: 7.8px;
 }
+@media screen and (max-width: 768px) {
+  .banner-title {
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+  .banner-caption {
+    font-size: 20px;
+    letter-spacing: 0.1px;
+  }
+  .banner-top-text {
+    font-size: 20px;
+  }
+}
