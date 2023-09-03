@@ -30,13 +30,15 @@ import member27 from "./Member Images/Shravan Kumar Pathak _Coordinator _Events_
 import member28 from "./Member Images/Soumili Chakraborti_Coordinator_.jpg"
 import member29 from "./Member Images/Yash Prakash Mishra_Co-ordinator_Abstract Review Committee.jpg"
 import member30 from "./Member Images/Yuvraj_TechCoordinator.jpg"
+import member31 from "./Member Images/shivansh_Tech_coordi.JPG"
+import member32 from "./Member Images/Divyansh_tech_coordi.jpeg"
 import "./team.css";
 
 function Team() {
   return (
     <>
       <div className="team-txt">
-       <img src={team} className="team-img" />
+        <img src={team} className="team-img" />
       </div>
 
       <div className="team-container-boss" id="team">
@@ -51,10 +53,10 @@ function Team() {
         </div>
 
 
-        
+
         <div className="member-2 flex-item">
           <div className="img">
-          <img src={member2} className="member-img" />
+            <img src={member2} className="member-img" />
           </div>
           <div className="name">
             <h1>Co-Convener</h1>
@@ -64,7 +66,7 @@ function Team() {
 
         <div className="member-3 flex-item">
           <div className="img">
-          <img src={member3} className="member-img" />
+            <img src={member3} className="member-img" />
           </div>
           <div className="name">
             <h1>CTM Technical</h1>
@@ -74,7 +76,7 @@ function Team() {
 
         <div className="member-4 flex-item">
           <div className="img">
-          <img src={member4} className="member-img" />
+            <img src={member4} className="member-img" />
           </div>
           <div className="name">
             <h1>CTM</h1>
@@ -84,7 +86,7 @@ function Team() {
 
         <div className="member-5 flex-item">
           <div className="img">
-          <img src={member5} className="member-img" />
+            <img src={member5} className="member-img" />
           </div>
           <div className="name">
             <h1>CTM Publicity</h1>
@@ -94,7 +96,7 @@ function Team() {
 
         <div className="member-6 flex-item">
           <div className="img">
-          <img src={member6} className="member-img" />
+            <img src={member6} className="member-img" />
           </div>
           <div className="name">
             <h1>Co-CTM Technical</h1>
@@ -104,7 +106,7 @@ function Team() {
 
         <div className="member-7 flex-item">
           <div className="img">
-          <img src={member7} className="member-img" />
+            <img src={member7} className="member-img" />
           </div>
           <div className="name">
             <h1>Co-CTM Publicity</h1>
@@ -114,7 +116,7 @@ function Team() {
 
         <div className="member-8 flex-item">
           <div className="img">
-          <img src={member8} className="member-img" />
+            <img src={member8} className="member-img" />
           </div>
           <div className="name">
             <h1>CTM LOGISTICS</h1>
@@ -124,7 +126,7 @@ function Team() {
 
         <div className="member-9 flex-item">
           <div className="img">
-          <img src={member9} className="member-img" />
+            <img src={member9} className="member-img" />
           </div>
           <div className="name">
             <h1>Co-CTM Logistics</h1>
@@ -134,17 +136,17 @@ function Team() {
 
         <div className="member-10 flex-item">
           <div className="img">
-          <img src={member10} className="member-img" />
+            <img src={member10} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Technical</h1>
+            <h1>Technical Coordinator</h1>
             <h2>Manoj </h2>
           </div>
         </div>
 
         <div className="member-11 flex-item">
           <div className="img">
-          <img src={member11} className="member-img" />
+            <img src={member11} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator</h1>
@@ -154,7 +156,7 @@ function Team() {
 
         <div className="member-12 flex-item">
           <div className="img">
-          <img src={member12} className="member-img" />
+            <img src={member12} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -164,7 +166,7 @@ function Team() {
 
         <div className="member-13 flex-item">
           <div className="img">
-          <img src={member13} className="member-img" />
+            <img src={member13} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -174,7 +176,7 @@ function Team() {
 
         <div className="member-14 flex-item">
           <div className="img">
-          <img src={member14} className="member-img" />
+            <img src={member14} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -184,7 +186,7 @@ function Team() {
 
         <div className="member-15 flex-item">
           <div className="img">
-          <img src={member15} className="member-img" />
+            <img src={member15} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -194,7 +196,7 @@ function Team() {
 
         <div className="member-16 flex-item">
           <div className="img">
-          <img src={member16} className="member-img" />
+            <img src={member16} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -204,17 +206,17 @@ function Team() {
 
         <div className="member-17 flex-item">
           <div className="img">
-          <img src={member17} className="member-img" />
+            <img src={member17} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Event </h1>
+            <h1>Event Coordinator </h1>
             <h2>Chirag Swaminarayan</h2>
           </div>
         </div>
 
         <div className="member-18 flex-item">
           <div className="img">
-          <img src={member18} className="member-img" />
+            <img src={member18} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -224,37 +226,37 @@ function Team() {
 
         <div className="member-19 flex-item">
           <div className="img">
-          <img src={member19} className="member-img" />
+            <img src={member19} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Marketing </h1>
+            <h1>Marketing Coordinator </h1>
             <h2>Hemant gupta</h2>
           </div>
         </div>
 
         <div className="member-20 flex-item">
           <div className="img">
-          <img src={member20} className="member-img" />
+            <img src={member20} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Events </h1>
+            <h1>Event Coordinator </h1>
             <h2>Kelvin Gajera</h2>
           </div>
         </div>
 
         <div className="member-21 flex-item">
           <div className="img">
-          <img src={member21} className="member-img" />
+            <img src={member21} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Technical </h1>
+            <h1>Technical Coordinator </h1>
             <h2>Nitin Kumar</h2>
           </div>
         </div>
 
         <div className="member-22 flex-item">
           <div className="img">
-          <img src={member22} className="member-img" />
+            <img src={member22} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -264,27 +266,27 @@ function Team() {
 
         <div className="member-23 flex-item">
           <div className="img">
-          <img src={member23} className="member-img" />
+            <img src={member23} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Events</h1>
+            <h1>Event Coordinator</h1>
             <h2>Parth Bidaliya</h2>
           </div>
         </div>
 
         <div className="member-24 flex-item">
           <div className="img">
-          <img src={member24} className="member-img" />
+            <img src={member24} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Marketing</h1>
+            <h1>Marketing Coordinator</h1>
             <h2>Piyush Paul</h2>
           </div>
         </div>
 
         <div className="member-25 flex-item">
           <div className="img">
-          <img src={member25} className="member-img" />
+            <img src={member25} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -294,7 +296,7 @@ function Team() {
 
         <div className="member-26 flex-item">
           <div className="img">
-          <img src={member26} className="member-img" />
+            <img src={member26} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -304,17 +306,17 @@ function Team() {
 
         <div className="member-27 flex-item">
           <div className="img">
-          <img src={member27} className="member-img" />
+            <img src={member27} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Events </h1>
+            <h1>Event Coordinator </h1>
             <h2>Shravan Pathak</h2>
           </div>
         </div>
 
         <div className="member-28 flex-item">
           <div className="img">
-          <img src={member28} className="member-img" />
+            <img src={member28} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -324,7 +326,7 @@ function Team() {
 
         <div className="member-29 flex-item">
           <div className="img">
-          <img src={member29} className="member-img" />
+            <img src={member29} className="member-img" />
           </div>
           <div className="name">
             <h1>Coordinator </h1>
@@ -334,17 +336,36 @@ function Team() {
 
         <div className="member-30 flex-item">
           <div className="img">
-          <img src={member30} className="member-img" />
+            <img src={member30} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Technical </h1>
+            <h1>Technical Coordinator </h1>
             <h2>Yuvraj</h2>
           </div>
         </div>
 
-        
 
+        <div className="member-31 flex-item">
+          <div className="img">
+            <img src={member31} className="member-img" />
+          </div>
+          <div className="name">
+            <h1>Technical Coordinator </h1>
+            <h2>Shivansh Gupta</h2>
+          </div>
+        </div>
+
+        <div className="member-32 flex-item">
+          <div className="img">
+            <img src={member32} className="member-img" />
+          </div>
+          <div className="name">
+            <h1>Technical Coordinator </h1>
+            <h2>Divyansh</h2>
+          </div>
+        </div>
       </div>
+
     </>
   );
 }

@@ -1,11 +1,12 @@
 @font-face {
     font-family: "Inria Sans Bold";
-    src: url("../InriaSans-Bold.ttf") format("truetype"); /* Adjust the path accordingly */
+    src: url("../InriaSans-Bold.ttf") format("truetype");
+    /* Adjust the path accordingly */
     font-weight: bold;
     font-style: normal;
-  }
+}
 
-.team-txt{
+.team-txt {
     background: url(./team_bg.svg) no-repeat center center/cover;
     background-size: cover;
     height: 100vh;
@@ -16,7 +17,7 @@
     flex-direction: column;
 }
 
-.team-container-boss{
+.team-container-boss {
     background: url(./teamcard_bg.png) no-repeat center center/cover;
     background-size: cover;
     height: 590vh;
@@ -25,7 +26,7 @@
     flex-wrap: wrap;
 }
 
-.flex-item{
+.flex-item {
     flex: 33% 1;
     margin-top: 10px;
     align-items: center;
@@ -33,15 +34,15 @@
     flex-direction: column;
     height: 300px;
 }
-    
 
-.member-img{
+
+.member-img {
     height: 200px;
     width: 200px;
     border-radius: 10%;
-    aspect-ratio: 2/3;
-    }
-.name{
+}
+
+.name {
     height: 60px;
     width: 200px;
     display: flex;
@@ -53,16 +54,19 @@
     margin-top: 10px;
     font-family: "Inria Sans Bold";
     color: white;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-@media (max-width:600px){
-    .team-container-boss{
+
+@media (max-width:600px) {
+    .team-container-boss {
         height: 850vh;
     }
 }
 
-@media (max-width:430px){
-    .team-container-boss{
+@media (max-width:430px) {
+    .team-container-boss {
         height: 1675vh;
     }
 }
