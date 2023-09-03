@@ -30,10 +30,6 @@ import member27 from "./Member Images/Shravan Kumar Pathak _Coordinator _Events_
 import member28 from "./Member Images/Soumili Chakraborti_Coordinator_.jpg"
 import member29 from "./Member Images/Yash Prakash Mishra_Co-ordinator_Abstract Review Committee.jpg"
 import member30 from "./Member Images/Yuvraj_TechCoordinator.jpg"
-import member31 from "./Member Images/c02e71a2-9994-4cc3-92aa-84a184a27268.jpeg"
-import member32 from "./Member Images/Prof_sangeeta_santra.jpeg"
-import member33 from "./Member Images/Prof_Bijay_tripathi.jpeg"
-import member34 from "./Member Images/Prof_Leena_Nebhani.jpeg"
 import "./team.css";
 
 function Team() {
@@ -45,37 +41,6 @@ function Team() {
 
       <div className="team-container-boss" id="team">
 
-      <div className="member-31 flex-item">
-          <img src={member31} className="member-img" />
-          <div className="name">
-            <h1>Professor</h1>
-            <h2>Laxmi Narayan R</h2>
-          </div>
-        </div>
-
-        <div className="member-32 flex-item">
-          <img src={member32} className="member-img" />
-          <div className="name">
-            <h1>Professor</h1>
-            <h2>Sangeeta Santra</h2>
-          </div>
-        </div>
-
-        <div className="member-33 flex-item">
-          <img src={member33} className="member-img" />
-          <div className="name">
-            <h1>Professor</h1>
-            <h2>Bijay P Tripathi</h2>
-          </div>
-        </div>
-
-        <div className="member-34 flex-item">
-          <img src={member34} className="member-img" />
-          <div className="name">
-            <h1>Professor</h1>
-            <h2>leena Nebhani</h2>
-          </div>
-        </div>
 
         <div className="member-1 flex-item">
           <img src={member1} className="member-img" />
@@ -102,7 +67,7 @@ function Team() {
           <img src={member3} className="member-img" />
           </div>
           <div className="name">
-            <h1>CTM</h1>
+            <h1>CTM Technical</h1>
             <h2>Rajat Gupta</h2>
           </div>
         </div>
@@ -132,7 +97,7 @@ function Team() {
           <img src={member6} className="member-img" />
           </div>
           <div className="name">
-            <h1>Co-CTM Tech</h1>
+            <h1>Co-CTM Technical</h1>
             <h2>Sunaina Das</h2>
           </div>
         </div>
@@ -172,7 +137,7 @@ function Team() {
           <img src={member10} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Tech</h1>
+            <h1>Coordinator Technical</h1>
             <h2>Manoj </h2>
           </div>
         </div>
@@ -282,7 +247,7 @@ function Team() {
           <img src={member21} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Tech </h1>
+            <h1>Coordinator Technical </h1>
             <h2>Nitin Kumar</h2>
           </div>
         </div>
@@ -372,7 +337,7 @@ function Team() {
           <img src={member30} className="member-img" />
           </div>
           <div className="name">
-            <h1>Coordinator Tech </h1>
+            <h1>Coordinator Technical </h1>
             <h2>Yuvraj</h2>
           </div>
         </div>
