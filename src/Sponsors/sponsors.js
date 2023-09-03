@@ -1,16 +1,13 @@
 import React from "react";
 import "./sponsors.css";
-import background from './background.png';
+import background from './background.svg';
 import member12 from './photo.jpeg';
 const Sponsors = () => {
   return (
     <>
       <div className="container-fluid main">
-
-
-        <img src={background} class="img-fluid" alt="not available" />
-
-</div>
+        <img src={background} alt="jwef"/>
+    </div>
         <div className="name-holder">
           <div className="banner-title">SPONSORS</div>
         </div>
