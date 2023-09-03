@@ -77,7 +77,7 @@ function Team() {
           <img src={member4} className="member-img" />
           </div>
           <div className="name">
-            <h1>Co-CTM</h1>
+            <h1>CTM</h1>
             <h2>Ayushi Thakur</h2>
           </div>
         </div>
