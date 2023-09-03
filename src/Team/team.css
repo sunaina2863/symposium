@@ -20,14 +20,14 @@
 .team-container-boss {
     background: url(./teamcard_bg.png) no-repeat center center/cover;
     background-size: cover;
-    height: 590vh;
+    height: 450vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .flex-item {
-    flex: 33% 1;
+    flex: 25% 1;
     margin-top: 10px;
     align-items: center;
     display: flex;
@@ -56,6 +56,12 @@
     color: white;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+@media (max-width:880px){
+    .team-container-boss {
+        height: 580vh;
+    }
 }
 
 
