@@ -16,17 +16,14 @@ function Events() {
                   className="event-image"
                 />
                 <div class="card-body">
-                  <p class="card-text">{event.desc}</p>
+                  {/* <p class="card-text">{event.desc}</p> */}
                   <p class="card-text"> Venue: {event.venue} </p>
                   <p class="card-text"> Date: {event.date} </p>
                   <p class="card-text"> Time: {event.time} </p>
                 </div>
                 <div class="card-footer">
                   <div>
-                    {" "}
-                    <a href="/" class="btn ">
-                      Regsiter Here
-                    </a>
+                    <a href="/">Regsiter Here</a>
                   </div>
                 </div>
               </div>
