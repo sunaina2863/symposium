@@ -1,77 +1,77 @@
 .banner-title{
-    font-family: 'Inria Sans Bold';
+    font-family: 'Inria Sans Bold' !important;
     
 }
 .container-main{
-    width: auto;
+    width: auto !important;
 }
 @font-face {
-    font-family: "Inria Sans Bold";
-    src: url("../InriaSans-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
+    font-family: "Inria Sans Bold" !important;
+    src: url("../InriaSans-Bold.ttf") format("truetype") !important;
+    font-weight: bold !important;
+    font-style: normal !important;
   }
 
 .team-txt{
-    background-size: cover;
-    height: 100vh;
-    width: 95vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-size: cover !important;
+    height: 100vh !important;
+    width: 95vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
     
 }
 
 .team-container-boss{
-    background-size: cover;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 40px;
+    background-size: cover !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 40px !important;
 }
 
 .flex-item{
-    flex: 50% 1;
-    margin-top: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 600px;
+    flex: 50% 1 !important;
+    margin-top: 10px !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 600px !important;
 }
     
 
 .member-img{
-    height: 400px;
-    width: 400px;
-    border-radius: 10%;
-    aspect-ratio: 2/3;
+    height: 400px !important;
+    width: 400px !important;
+    border-radius: 10% !important;
+    aspect-ratio: 2/3 !important;
     }
 .name{
-    padding: 40px;
-    margin-top: 10px;
-    height: 60px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #4675C0;
-    border-radius: 10px;
-    margin-top: 10px;
-    font-family: "Inria Sans Bold";
-    color: white;
+    padding: 40px !important;
+    margin-top: 10px !important;
+    height: 60px !important;
+    width: 300px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: #4675C0 !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+    font-family: "Inria Sans Bold" !important;
+    color: white !important;
 }
 
 @media (max-width:600px){
     .team-container-boss{
-        height: 850vh;
+        height: 850vh !important;
         
     }
 }
 
 @media (max-width:430px){
     .team-container-boss{
-        height: 1675vh;
+        height: 1675vh !important;
     }
 }
