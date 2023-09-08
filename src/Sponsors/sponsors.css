@@ -62,12 +62,28 @@
 
 @media (max-width: 600px) {
   .sponsors-container-boss {
-    height: 850vh;
+    height: 100vh;
   }
 }
 
 @media (max-width: 430px) {
   .sponsors-container-boss {
-    height: 1675vh;
+    height: 100vh;
   }
+}
+
+.container-fluid-sponser{
+  background: url(./Material\ Science\ &\ Engineering\ Society.svg) no-repeat center center/cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-fluid-sponser img{
+  height: 120px;
+  width:450px;
 }
