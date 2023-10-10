@@ -32,6 +32,10 @@ import member29 from "./Member Images/Yash Prakash Mishra_Co-ordinator_Abstract 
 import member30 from "./Member Images/Yuvraj_TechCoordinator.jpg"
 import member31 from "./Member Images/shivansh_Tech_coordi.JPG"
 import member32 from "./Member Images/Divyansh_tech_coordi.jpeg"
+import member33 from './Member Images/lnr.jpg'
+import member34 from './Member Images/leena.jpg'
+import member35 from './Member Images/sangeeta.jpg'
+import member36 from './Member Images/bijay.jpg'
 import "./team.css";
 
 function Team() {
@@ -43,7 +47,34 @@ function Team() {
 
       <div className="team-container-boss" id="team">
 
-
+      <div className="member-1 flex-item">
+          <img src={member33} className="member-img" />
+          <div className="name">
+            <h1>Faculty</h1>
+            <h2>LAKSHMI NARAYAN RAMASUBRAMANIAN</h2>
+          </div>
+        </div>
+        <div className="member-1 flex-item">
+          <img src={member34} className="member-img" />
+          <div className="name">
+            <h1>Faculty</h1>
+            <h2>LEENA NEBHANI</h2>
+          </div>
+        </div>
+        <div className="member-1 flex-item">
+          <img src={member35} className="member-img" />
+          <div className="name">
+            <h1>Faculty</h1>
+            <h2>SANGEETA SANTRA</h2>
+          </div>
+        </div>
+        <div className="member-1 flex-item">
+          <img src={member36} className="member-img" />
+          <div className="name">
+            <h1>Faculty</h1>
+            <h2>BIJAY P TRIPATHI</h2>
+          </div>
+        </div>
         <div className="member-1 flex-item">
           <img src={member1} className="member-img" />
           <div className="name">
