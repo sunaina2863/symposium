@@ -51,7 +51,7 @@ function Team() {
           <img src={member33} className="member-img" />
           <div className="name">
             <h1>Faculty</h1>
-            <h2>LAKSHMI NARAYAN RAMASUBRAMANIAN</h2>
+            <h2 className='lnr'>LAKSHMI NARAYAN RAMASUBRAMANIAN</h2>
           </div>
         </div>
         <div className="member-1 flex-item">
