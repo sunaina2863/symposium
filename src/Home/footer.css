@@ -11,7 +11,9 @@
   font-style: normal;
 }
 
-
+.container-fluid{
+  position: relative;
+}
 
 .icon {
   transition: transform 0.3s ease;
