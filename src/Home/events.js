@@ -23,7 +23,7 @@ function Events() {
                 </div>
                 <div class="card-footer">
                   <div>
-                    <a href="/">Regsiter Here</a>
+                    <a href="/">Register Here</a>
                   </div>
                 </div>
               </div>
