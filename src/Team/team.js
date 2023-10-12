@@ -50,28 +50,28 @@ function Team() {
       <div className="member-1 flex-item">
           <img src={member33} className="member-img" />
           <div className="name">
-            <h1>Faculty</h1>
+            <h1>Professor</h1>
             <h2 className='lnr'>LAKSHMI NARAYAN RAMASUBRAMANIAN</h2>
           </div>
         </div>
         <div className="member-1 flex-item">
           <img src={member34} className="member-img" />
           <div className="name">
-            <h1>Faculty</h1>
+            <h1>Professor</h1>
             <h2>LEENA NEBHANI</h2>
           </div>
         </div>
         <div className="member-1 flex-item">
           <img src={member35} className="member-img" />
           <div className="name">
-            <h1>Faculty</h1>
+            <h1>Professor</h1>
             <h2>SANGEETA SANTRA</h2>
           </div>
         </div>
         <div className="member-1 flex-item">
           <img src={member36} className="member-img" />
           <div className="name">
-            <h1>Faculty</h1>
+            <h1>Professor</h1>
             <h2>BIJAY P TRIPATHI</h2>
           </div>
         </div>
