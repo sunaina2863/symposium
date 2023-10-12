@@ -1,4 +1,5 @@
 import industry from "./industry.jpeg";
+import microstructure from "./Microstructure.jpeg";
 
 export const eventData = [
   {
@@ -6,26 +7,18 @@ export const eventData = [
     image: industry,
     title: "Industry Problem Solving",
     desc: "Elevate your problem-solving game! Our competition is more than a challenge; Show the world your vision for a better industry, where innovation reigns supreme, and bold ideas take center stage. Join us and be the catalyst for positive change in the world of business and technology.",
-    venue: "LHC123",
-    date: "01/01/01",
-    time: "23:59",
+    venue: "LH-318",
+    date: "14/10/23",
+    time: "3:30 PM",
   },
   {
-    id: 1,
-    image: industry,
-    title: "Industry Problem Solving",
+    id: 2,
+    image: microstructure,
+    title: "Microstructure competiton",
     desc: "Calling all Aspiring Problem Solvers! Unleash your ingenuity and let your brilliance shine as you tackle real-world challenges head-on. Are you up for the challenge? It's time to turn your ideas into solutions and transform industries.",
-    venue: "LHC123",
-    date: "01/01/01",
-    time: "23:59",
+    venue: "Near SEMINAR HALL",
+    date: "15/10/23",
+    time: "2-4 PM",
   },
-  {
-    id: 1,
-    image: industry,
-    title: "Industry Problem Solving",
-    desc: "Calling all Aspiring Problem Solvers! Unleash your ingenuity and let your brilliance shine as you tackle real-world challenges head-on. Are you up for the challenge? It's time to turn your ideas into solutions and transform industries.",
-    venue: "LHC123",
-    date: "01/01/01",
-    time: "23:59",
-  },
+  
 ];
